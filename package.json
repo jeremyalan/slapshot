@@ -1,0 +1,28 @@
+{
+  "name": "slapshot",
+  "version": "1.0.0",
+  "description": "Takes web-based screenshots of your application",
+  "bin": {
+    "slapshot": "./bin/slapshot.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyalan/slapshot.git"
+  },
+  "author": "Jeremy Mason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyalan/slapshot/issues"
+  },
+  "homepage": "https://github.com/jeremyalan/slapshot#readme",
+  "dependencies": {
+    "electron-screenshot-service": "^4.0.3",
+    "js-yaml": "^3.8.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
